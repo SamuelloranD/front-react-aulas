@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-const Subtracao = () => {
-  return (
-    <div>Subtracao</div>
-  )
+const Subtracao = (props) => {{
+    return (
+      <div>O resultado de (num1) {props.num1} - {props.num2} (num2) é = {props.num1 - props.num2}</div>
+    )
+  }
 }
 
-export default Subtracao
+export default Subtracao;
