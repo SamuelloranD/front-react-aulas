@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 const HookMegaSena = () => {
-  const [numero, setNumero] = useState(null)          // último número sorteado
-  const [numeros, setNumeros] = useState([])          // array com os números sorteados
+  const [numero, setNumero] = useState(null)
+  const [numeros, setNumeros] = useState([])
 
   function sortearNumero() {
     if (numeros.length >= 6) {

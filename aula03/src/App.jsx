@@ -1,13 +1,12 @@
 import React from 'react'
-import RenderizandoComFuncoes from './components/RenderizandoComFuncoes'
-import TrabalhandoComImagens from './components/TrabalhandoComImagens'
-import HookContador from './components/HookContador'
 import EstouConseguindoAprenderReact from './components/EstouConseguindoAprenderReact'
+import EstouComSono from './components/EstouComSono'
 
 const App = () => {
   return (
     <div>
       <EstouConseguindoAprenderReact estouConseguindo = {false}/>
+      <EstouComSono sono = {false}/>
     </div>
   )
 }
