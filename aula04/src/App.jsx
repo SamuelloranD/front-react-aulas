@@ -5,11 +5,18 @@ import Exercicio2 from './components/Exercicio2'
 import Campanha from './components/Campanha'
 
 function App() {
+
+  const dataAtual = new Date()
+  const meses = [
+    'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
+    'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
+  ]
+  const mesAtual = meses[dataAtual.getMonth()] //getMonth() vai de 0 a 11, de janeiro a dezembro 
+
   return (
     <div>
-      <Campanha mes='setembro'/>
-      <Campanha mes='outubro'/>
-      <Campanha mes='novembro'/>
+      <Campanha mes={mesAtual}/>
+      <Exercicio1/>
     </div>
   )
 }
