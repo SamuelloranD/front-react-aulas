@@ -3,6 +3,7 @@ import './App.css'
 import Exercicio1 from './components/Exercicio1'
 import Exercicio2 from './components/Exercicio2'
 import Campanha from './components/Campanha'
+import Dark from './components/Dark'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Campanha mes={mesAtual}/>
       <Exercicio1/>
+      <Dark/>
     </div>
   )
 }

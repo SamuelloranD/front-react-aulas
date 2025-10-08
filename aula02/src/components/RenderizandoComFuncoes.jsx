@@ -3,7 +3,7 @@ import React from 'react'
 const RenderizandoComFuncoes = () => {
 
     function oQueRenderizar(estado) {
-        if (estado === "PE") {
+        if (estado === "PB") {
             return <h1>João Pessoa</h1>
         } else {
             return <h2>Recife</h2>
@@ -11,7 +11,7 @@ const RenderizandoComFuncoes = () => {
     }
 
     return (
-    <div>{oQueRenderizar("PE")}</div>
+    <div>{oQueRenderizar("PB")}</div>
   )
 
 }
